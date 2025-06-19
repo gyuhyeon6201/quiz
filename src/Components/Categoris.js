@@ -15,7 +15,7 @@ const StyledButton = styled.button`
 const Categoris = ({categoris,onSelect}) => {
     return (
         <div className="category">
-            <h1>퀴즈 카테고리를 선택해 주세요</h1>
+            <h1>"오늘도 FliQ 한 판?"</h1>
             <div className="category-wrap">
                 {
                     categoris.map((item, idx)=>{
